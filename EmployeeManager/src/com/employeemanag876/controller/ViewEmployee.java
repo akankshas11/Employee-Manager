@@ -42,7 +42,7 @@ public class ViewEmployee extends HttpServlet{
 			p.print("<tr><td>"+e.getName()+"</td><td>"+e.getPositionTitle()+"</td><td>"+e.getGender()+"</td><td>"+e.getDOB()+"</td><td>"+e.getEmail()+"</td><td>"+e.getPhone()+"</td><td>"+e.getAddress()+"</td><td>"+e.getJoinDate()+"</td></tr>");
 		}
 		p.print("</table>");
-	
+	System.out.println("");
 	}
 
 }
